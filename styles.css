@@ -121,7 +121,7 @@ a:active {
     z-index: 99;
     position: absolute;
     margin-left: 96%;
-    margin-top: -3.5%;
+    margin-top: -4.5%;
 }
 
 .osquare2 {
@@ -130,8 +130,7 @@ a:active {
     background-color: #e8861d;
     z-index: 99;
     position: relative;
-    margin-left: -200%;
-    margin-top: -3.5%;
+    margin-left: -250%;
 }
 
 .bsquare {
@@ -140,6 +139,5 @@ a:active {
     background-color: #4d92ff;
     z-index: 99;
     position: relative;
-    margin-left: -200%;
-    margin-top: -3.5%;
+    margin-left: -250%;
 }
