@@ -10,8 +10,8 @@
 }
 
 .bg{
-    width:100%;
-    height:100%;
+    width: auto;
+    height:auto;
     background-color: black;
     z-index: 0;
 }
@@ -21,7 +21,7 @@
     margin:auto;
 }
 
-.scroll-left {
+#topbanner {
  height: 50px;
  width: 500px ;
  overflow: hidden;
@@ -31,29 +31,7 @@
  border: 1px solid white;
  background: #eFefeF;
  margin: auto;
-}
-
-.scroll-left p {
-    font-family: 'Courier New', Courier, monospace;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    line-height: 50px;
-    text-align: center;
-    /* Starting position */
-    transform:translateX(100%);
-    /* Apply animation to this element */
-    animation: scroll-left 10s infinite linear;
-    z-index: inherit;
-}
-@keyframes scroll-left {
- 0%   {
- transform: translateX(100%); 		
- }
- 100% {
- transform: translateX(-100%); 
- }
+ text-align: center;
 }
 
 .banner{
@@ -80,18 +58,14 @@
 }
 
 .orange{
-    width: 70%;
-    height: auto;
+    width: 80%;
     margin:auto;
     margin-top: 20px;
     background-color: #e8861d;
     color: #785528;
+    word-wrap: break-word;
     z-index: 3;
     position: relative;
-}
-.orange p{
-    border:1 solid #f49a21;
-    z-index: inherit;
 }
 
 #fakebanner{
@@ -106,4 +80,8 @@
     bottom: 10vh;
     color: darkslategray;
     position: absolute;
+}
+
+#white{
+    color:white;
 }
