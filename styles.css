@@ -7,6 +7,7 @@
     background-image: linear-gradient(#f49a21, #f49a21, #ffae22);
     z-index: 1;
     position: relative;
+    overflow: hidden;
 }
 
 .bg {
@@ -37,10 +38,9 @@
 .banner {
     width: 100%;
     height: auto;
-    margin-top: 2px;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
-    color: orangered;
     border: #eFefeF;
     background-color: black;
     position: relative;
@@ -52,8 +52,9 @@
     font-size: 900%;
     z-index: 1;
     position: absolute;
-    right: 0vh;
-    bottom: -3vh;
+    right: -3px;
+    bottom: -55px;
+    stroke: #b27618 ;
 
 }
 
@@ -70,15 +71,17 @@
 }
 
 #fakebanner {
-    text-align: center;
+    text-align: left;
+    margin-top: 2px;
+    position: relative;
 }
 
 #birthday {
     writing-mode: vertical-lr;
     text-orientation: upright;
     z-index: 3;
-    right: 0vh;
-    bottom: 10vh;
+    right: 0px;
+    bottom: 150px;
     color: darkslategray;
     position: absolute;
 }
