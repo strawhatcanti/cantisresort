@@ -52,8 +52,8 @@
     font-size: 900%;
     z-index: 1;
     position: absolute;
-    right: -3px;
-    bottom: -55px;
+    right: -50px;
+    bottom: -40px;
     stroke: #b27618 ;
 
 }
@@ -68,6 +68,11 @@
     word-wrap: break-word;
     z-index: 3;
     position: relative;
+}
+
+#short{
+    width: 400px;
+    margin-left:100px;
 }
 
 #fakebanner {
@@ -140,4 +145,10 @@ a:active {
     z-index: 99;
     position: relative;
     margin-left: -250%;
+}
+
+#diffont{
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 30px;
+    
 }
