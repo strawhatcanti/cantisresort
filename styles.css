@@ -2,11 +2,13 @@
     font-family: 'Courier New', Courier, monospace;
     width: 800px;
     height: 568px;
-    margin: auto;
-    margin-top: 15vh;
-    background-image: linear-gradient(#f49a21, #f49a21, #ffae22);
+    background-image: linear-gradient(#f49a21, #ff9d21, #ffae22);
     z-index: 1;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -284px;
+    margin-left: -400px;
     overflow: hidden;
 }
 
