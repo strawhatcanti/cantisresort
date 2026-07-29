@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas:
+                "header header header header"
+                "content content content content"
+                "banner banner banner banner"
+                "footer footer footer footer";
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: 50px 568px 50px 100px;
+            gap: 3px;
+            background-color: dodgerblue;
+            padding: 5px;
+
+            display: relative; justify-content: center; align-items: center;
+        }
+
+        .container div {
+            background-color: white;
+            padding: 10px;
+        }
+
+        .container div.header {
+            grid-area: header;
+            text-align: center;
+        }
+
+        .container div.content {
+            grid-area: content;
+        }
+
+        .container div.banner {
+            grid-area: banner;
+        }
+
+        .container div.footer {
+            grid-area: footer;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<div class="container">
+    <div class="header">
+        <h2>My Header</h2>
+    </div>
+
+    <div class="center">
+        <p>
+            CONTENT
+        </p>
+    </div>
+
+    <div class="banner">
+        <p> neis</p>
+    </div>
+
+    <div class="footer">
+        <h4>Footer</h4>
+    </div>
+</div>
+
+
+</html>
